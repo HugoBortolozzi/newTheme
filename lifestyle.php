@@ -1,7 +1,8 @@
+
+<?php
 /*
 Template Name: lifestyle-newTheme
 */
-<?php
 //https://developer.wordpress.org/themes/basics/template-files/#using-template-files
 // on séparer le header dans un fichier seul pour que toutes les pages puisse l'utiliser et qu'il ne faille modifier le header qu'à un seul endroit.
 get_header();
@@ -28,7 +29,7 @@ get_header();
         			<div class="col-md-6 col-lg-12 ftco-animate">
     						<div class="blog-entry d-lg-flex">
     							<div class="half">
-			    					<a href="single.html" class="img d-flex align-items-end" style="background-image: url(images/image_1.jpg);">
+			    					<a href="single.html" class="img d-flex align-items-end" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/image_1.jpg);">
 			    						<div class="overlay"></div>
 				    				</a>
 			    				</div>
@@ -44,7 +45,7 @@ get_header();
     					<div class="col-md-6 col-lg-12 ftco-animate">
     						<div class="blog-entry d-lg-flex">
     							<div class="half">
-			    					<a href="single.html" class="img d-flex align-items-end" style="background-image: url(images/image_2.jpg);">
+			    					<a href="single.html" class="img d-flex align-items-end" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/image_2.jpg);">
 			    						<div class="overlay"></div>
 				    				</a>
 			    				</div>
@@ -60,7 +61,7 @@ get_header();
     					<div class="col-md-6 col-lg-12 ftco-animate">
     						<div class="blog-entry d-lg-flex">
     							<div class="half">
-			    					<a href="single.html" class="img d-flex align-items-end" style="background-image: url(images/image_3.jpg);">
+			    					<a href="single.html" class="img d-flex align-items-end" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/image_3.jpg);">
 			    						<div class="overlay"></div>
 				    				</a>
 			    				</div>
@@ -76,7 +77,7 @@ get_header();
     					<div class="col-md-6 col-lg-12 ftco-animate">
     						<div class="blog-entry d-lg-flex">
     							<div class="half">
-			    					<a href="single.html" class="img d-flex align-items-end" style="background-image: url(images/image_4.jpg);">
+			    					<a href="single.html" class="img d-flex align-items-end" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/image_4.jpg);">
 			    						<div class="overlay"></div>
 				    				</a>
 			    				</div>
@@ -92,7 +93,7 @@ get_header();
     					<div class="col-md-6 col-lg-12 ftco-animate">
     						<div class="blog-entry d-lg-flex">
     							<div class="half">
-			    					<a href="single.html" class="img d-flex align-items-end" style="background-image: url(images/image_5.jpg);">
+			    					<a href="single.html" class="img d-flex align-items-end" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/image_5.jpg);">
 			    						<div class="overlay"></div>
 				    				</a>
 			    				</div>
@@ -108,7 +109,7 @@ get_header();
     					<div class="col-md-6 col-lg-12 ftco-animate">
     						<div class="blog-entry d-lg-flex">
     							<div class="half">
-			    					<a href="single.html" class="img d-flex align-items-end" style="background-image: url(images/image_6.jpg);">
+			    					<a href="single.html" class="img d-flex align-items-end" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/image_6.jpg);">
 			    						<div class="overlay"></div>
 				    				</a>
 			    				</div>
@@ -143,7 +144,7 @@ get_header();
         		<div class="sidebar-wrap">
 	        		<div class="sidebar-box p-4 about text-center ftco-animate">
 			          <h2 class="heading mb-4">About Me</h2>
-			          <img src="images/author.jpg" class="img-fluid" alt="Colorlib Template">
+			          <img src="<?php echo get_template_directory_uri(); ?>/images/author.jpg" class="img-fluid" alt="Colorlib Template">
 			          <div class="text pt-4">
 			          	<p>Hi! My name is <strong>Cathy Deon</strong>, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 			          </div>
@@ -160,21 +161,21 @@ get_header();
 			          <h2 class="heading mb-4">Categories</h2>
 			          <ul class="category-image">
 			          	<li>
-			          		<a href="#" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(images/category-1.jpg);">
+			          		<a href="#" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/category-1.jpg);">
 			          			<div class="text">
 			          				<h3>Foods</h3>
 			          			</div>
 			          		</a>
 			          	</li>
 			          	<li>
-			          		<a href="#" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(images/category-2.jpg);">
+			          		<a href="#" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/category-2.jpg);">
 			          			<div class="text">
 			          				<h3>Lifestyle</h3>
 			          			</div>
 			          		</a>
 			          	</li>
 			          	<li>
-			          		<a href="#" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(images/category-2.jpg);">
+			          		<a href="#" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/category-2.jpg);">
 			          			<div class="text">
 			          				<h3>Others</h3>
 			          			</div>

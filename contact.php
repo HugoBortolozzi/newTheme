@@ -1,7 +1,8 @@
+
+<?php
 /*
 Template Name: contact-newTheme
 */
-<?php
 //https://developer.wordpress.org/themes/basics/template-files/#using-template-files
 // on séparer le header dans un fichier seul pour que toutes les pages puisse l'utiliser et qu'il ne faille modifier le header qu'à un seul endroit.
 get_header();
