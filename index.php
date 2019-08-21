@@ -132,7 +132,7 @@ get_header();
         		<div class="row">
         			<div class="col-md-4 ftco-animate">
     						<div class="blog-entry">
-		    					<a href="single.html" class="img-2"><img src="images/blog-1.jpg" class="img-fluid" alt="Colorlib Template"></a>
+		    					<a href="single.html" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-1.jpg" class="img-fluid" alt="Colorlib Template"></a>
 			    				<div class="text pt-3">
 	    							<p class="meta d-flex"><span class="pr-3">Dessert</span><span class="ml-auto pl-3">March 01, 2018</span></p>
 	    							<h3><a href="#">Tasty &amp; Delicious Foods</a></h3>
@@ -142,7 +142,7 @@ get_header();
     					</div>
     					<div class="col-md-4 ftco-animate">
     						<div class="blog-entry">
-		    					<a href="single.html" class="img-2"><img src="images/blog-2.jpg" class="img-fluid" alt="Colorlib Template"></a>
+		    					<a href="single.html" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-2.jpg" class="img-fluid" alt="Colorlib Template"></a>
 			    				<div class="text pt-3">
 	    							<p class="meta d-flex"><span class="pr-3">Dessert</span><span class="ml-auto pl-3">March 01, 2018</span></p>
 	    							<h3><a href="#">Tasty &amp; Delicious Foods</a></h3>
@@ -152,7 +152,7 @@ get_header();
     					</div>
     					<div class="col-md-4 ftco-animate">
     						<div class="blog-entry">
-		    					<a href="single.html" class="img-2"><img src="images/blog-3.jpg" class="img-fluid" alt="Colorlib Template"></a>
+		    					<a href="single.html" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-3.jpg" class="img-fluid" alt="Colorlib Template"></a>
 			    				<div class="text pt-3">
 	    							<p class="meta d-flex"><span class="pr-3">Dessert</span><span class="ml-auto pl-3">March 01, 2018</span></p>
 	    							<h3><a href="#">Tasty &amp; Delicious Foods</a></h3>
@@ -167,7 +167,7 @@ get_header();
         		<div class="sidebar-wrap">
 	        		<div class="sidebar-box p-4 about text-center ftco-animate">
 			          <h2 class="heading mb-4">About Me</h2>
-			          <img src="images/author.jpg" class="img-fluid" alt="Colorlib Template">
+			          <img src="<?php echo get_template_directory_uri(); ?>/images/author.jpg" class="img-fluid" alt="Colorlib Template">
 			          <div class="text pt-4">
 			          	<p>Hi! My name is <strong>Cathy Deon</strong>, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 			          </div>
