@@ -1,7 +1,7 @@
 <section class="ftco-section ftco-no-pt ftco-section-about ftco-no-pb bg-darken">
     	<div class="container-fluid">
     		<div class="row">
-					<div class="col-sm-6 col-md-6 col-lg-9 order-md-last img py-5" style="background-image: url(images/bg_3.jpg);"></div>
+					<div class="col-sm-6 col-md-6 col-lg-9 order-md-last img py-5" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/bg_3.jpg);"></div>
 
 	        <div class="col-sm-6 col-md-6 col-lg-3 py-4 text d-flex align-items-center ftco-animate">
 	        	<div class="text-2 py-5 px-4">

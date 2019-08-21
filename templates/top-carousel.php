@@ -3,7 +3,7 @@
         <div class="container">
           <div class="row d-flex slider-text justify-content-center align-items-center" data-scrollax-parent="true">
 						
-						<div class="img" style="background-image: url(images/bg_1.jpg);"></div>
+						<div class="img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/bg_1.jpg);"></div>
 
             <div class="text d-flex align-items-center ftco-animate">
             	<div class="text-2 pb-lg-5 mb-lg-4 px-4 px-md-5">
@@ -22,7 +22,7 @@
         <div class="container">
           <div class="row d-flex slider-text justify-content-center align-items-center" data-scrollax-parent="true">
 
-          	<div class="img" style="background-image: url(images/bg_2.jpg);"></div>
+          	<div class="img" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/bg_2.jpg);"></div>
 
             <div class="text d-flex align-items-center ftco-animate">
             	<div class="text-2 pb-lg-5 mb-lg-4 px-4 px-md-5">

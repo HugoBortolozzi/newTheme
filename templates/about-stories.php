@@ -2,7 +2,7 @@
     	<div class="container">
     		<div class="row d-flex">
     			<div class="col-md-6 d-flex">
-    				<div class="img d-flex align-self-stretch" style="background-image:url(images/about.jpg);"></div>
+    				<div class="img d-flex align-self-stretch" style="background-image:url(<?php echo get_template_directory_uri(); ?>/images/about.jpg);"></div>
     			</div>
     			<div class="col-md-6 pl-md-5 py-5">
     				<div class="row justify-content-start pb-3">

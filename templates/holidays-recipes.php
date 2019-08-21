@@ -10,7 +10,7 @@
         		<div class="row">
         			<div class="col-md-6 col-lg-6 ftco-animate">
 		    				<div class="blog-entry">
-		    					<div class="img img-big img-big-2 d-flex align-items-end" style="background-image: url(images/image_1.jpg);">
+		    					<div class="img img-big img-big-2 d-flex align-items-end" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/image_1.jpg);">
 		    						<div class="overlay"></div>
 		    						<div class="text">
 		    							<span class="subheading">Food</span>
@@ -22,7 +22,7 @@
 		    			</div>
 		    			<div class="col-md-6 col-lg-6 ftco-animate">
 		    				<div class="blog-entry">
-		    					<div class="img img-big img-big-2 d-flex align-items-end" style="background-image: url(images/image_3.jpg);">
+		    					<div class="img img-big img-big-2 d-flex align-items-end" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/image_3.jpg);">
 		    						<div class="overlay"></div>
 		    						<div class="text">
 		    							<span class="subheading">Lifestyle</span>
@@ -40,21 +40,21 @@
 			          <h2 class="heading mb-4">Categories</h2>
 			          <ul class="category-image">
 			          	<li>
-			          		<a href="foods.html" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(images/category-1.jpg);">
+			          		<a href="foods.html" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/category-1.jpg);">
 			          			<div class="text">
 			          				<h3>Foods</h3>
 			          			</div>
 			          		</a>
 			          	</li>
 			          	<li>
-			          		<a href="lifestyle.html" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(images/category-2.jpg);">
+			          		<a href="lifestyle.html" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/category-2.jpg);">
 			          			<div class="text">
 			          				<h3>Lifestyle</h3>
 			          			</div>
 			          		</a>
 			          	</li>
 			          	<li>
-			          		<a href="#" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(images/category-2.jpg);">
+			          		<a href="#" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/category-2.jpg);">
 			          			<div class="text">
 			          				<h3>Others</h3>
 			          			</div>
