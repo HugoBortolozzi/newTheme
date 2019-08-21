@@ -1,10 +1,13 @@
+/*
+Template Name: single-newTheme
+*/
 <?php
 //https://developer.wordpress.org/themes/basics/template-files/#using-template-files
 // on séparer le header dans un fichier seul pour que toutes les pages puisse l'utiliser et qu'il ne faille modifier le header qu'à un seul endroit.
 get_header();
 ?>
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_4.jpg');">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/bg_4.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">

@@ -22,7 +22,7 @@ wp_head();
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="http://localhost:8080/?page_id=29" class="nav-link">About</a></li>
 	          <li class="nav-item"><a href="foods.html" class="nav-link">Foods</a></li>
 	          <li class="nav-item"><a href="lifestyle.html" class="nav-link">Lifestyle</a></li>
 	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
