@@ -14,7 +14,7 @@ get_header();
         <div class="row no-gutters slider-text align-items-end justify-content-center">
           <div class="col-md-9 ftco-animate pb-5 text-center">
             <h1 class="mb-3 bread">Foods</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Foods <i class="ion-ios-arrow-forward"></i></span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="http://localhost:8080">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Foods <i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
       </div>
@@ -155,21 +155,21 @@ get_header();
 			          <h2 class="heading mb-4">Categories</h2>
 			          <ul class="category-image">
 			          	<li>
-			          		<a href="#" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/category-1.jpg);">
+			          		<a href="http://localhost:8080/?page_id=33" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/category-1.jpg);">
 			          			<div class="text">
 			          				<h3>Foods</h3>
 			          			</div>
 			          		</a>
 			          	</li>
 			          	<li>
-			          		<a href="#" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/category-2.jpg);">
+			          		<a href="http://localhost:8080/?page_id=35" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/category-2.jpg);">
 			          			<div class="text">
 			          				<h3>Lifestyle</h3>
 			          			</div>
 			          		</a>
 			          	</li>
 			          	<li>
-			          		<a href="#" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/category-2.jpg);">
+			          		<a href="http://localhost:8080/?page_id=29" class="img d-flex align-items-center justify-content-center text-center" style="background-image: url(<?php echo get_template_directory_uri(); ?>/images/category-2.jpg);">
 			          			<div class="text">
 			          				<h3>Others</h3>
 			          			</div>
