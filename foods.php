@@ -28,91 +28,91 @@ get_header();
         		<div class="row">
         			<div class="col-md-4 ftco-animate">
     						<div class="blog-entry">
-		    					<a href="single.html" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-1.jpg" class="img-fluid" alt="Colorlib Template"></a>
+		    					<a href="http://localhost:8080/?page_id=37" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-1.jpg" class="img-fluid" alt="Colorlib Template"></a>
 			    				<div class="text pt-3">
 	    							<p class="meta d-flex"><span class="pr-3">Dessert</span><span class="ml-auto pl-3">March 01, 2018</span></p>
-	    							<h3><a href="single.html">Tasty &amp; Delicious Foods</a></h3>
-	    							<p class="mb-0"><a href="single.html" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
+	    							<h3><a href="http://localhost:8080/?page_id=37">Tasty &amp; Delicious Foods</a></h3>
+	    							<p class="mb-0"><a href="http://localhost:8080/?page_id=37" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
 	    						</div>
 		    				</div>
     					</div>
     					<div class="col-md-4 ftco-animate">
     						<div class="blog-entry">
-		    					<a href="single.html" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-2.jpg" class="img-fluid" alt="Colorlib Template"></a>
+		    					<a href="http://localhost:8080/?page_id=37" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-2.jpg" class="img-fluid" alt="Colorlib Template"></a>
 			    				<div class="text pt-3">
 	    							<p class="meta d-flex"><span class="pr-3">Dessert</span><span class="ml-auto pl-3">March 01, 2018</span></p>
-	    							<h3><a href="single.html">Tasty &amp; Delicious Foods</a></h3>
-	    							<p class="mb-0"><a href="single.html" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
+	    							<h3><a href="http://localhost:8080/?page_id=37">Tasty &amp; Delicious Foods</a></h3>
+	    							<p class="mb-0"><a href="http://localhost:8080/?page_id=37" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
 	    						</div>
 		    				</div>
     					</div>
     					<div class="col-md-4 ftco-animate">
     						<div class="blog-entry">
-		    					<a href="single.html" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-3.jpg" class="img-fluid" alt="Colorlib Template"></a>
+		    					<a href="http://localhost:8080/?page_id=37" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-3.jpg" class="img-fluid" alt="Colorlib Template"></a>
 			    				<div class="text pt-3">
 	    							<p class="meta d-flex"><span class="pr-3">Dessert</span><span class="ml-auto pl-3">March 01, 2018</span></p>
-	    							<h3><a href="single.html">Tasty &amp; Delicious Foods</a></h3>
-	    							<p class="mb-0"><a href="single.html" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
+	    							<h3><a href="http://localhost:8080/?page_id=37">Tasty &amp; Delicious Foods</a></h3>
+	    							<p class="mb-0"><a href="http://localhost:8080/?page_id=37" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
 	    						</div>
 		    				</div>
     					</div>
     					<div class="col-md-4 ftco-animate">
     						<div class="blog-entry">
-		    					<a href="single.html" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-4.jpg" class="img-fluid" alt="Colorlib Template"></a>
+		    					<a href="http://localhost:8080/?page_id=37" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-4.jpg" class="img-fluid" alt="Colorlib Template"></a>
 			    				<div class="text pt-3">
 	    							<p class="meta d-flex"><span class="pr-3">Dessert</span><span class="ml-auto pl-3">March 01, 2018</span></p>
-	    							<h3><a href="single.html">Tasty &amp; Delicious Foods</a></h3>
-	    							<p class="mb-0"><a href="single.html" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
+	    							<h3><a href="http://localhost:8080/?page_id=37">Tasty &amp; Delicious Foods</a></h3>
+	    							<p class="mb-0"><a href="http://localhost:8080/?page_id=37" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
 	    						</div>
 		    				</div>
     					</div>
     					<div class="col-md-4 ftco-animate">
     						<div class="blog-entry">
-		    					<a href="single.html" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-5.jpg" class="img-fluid" alt="Colorlib Template"></a>
+		    					<a href="http://localhost:8080/?page_id=37" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-5.jpg" class="img-fluid" alt="Colorlib Template"></a>
 			    				<div class="text pt-3">
 	    							<p class="meta d-flex"><span class="pr-3">Dessert</span><span class="ml-auto pl-3">March 01, 2018</span></p>
-	    							<h3><a href="single.html">Tasty &amp; Delicious Foods</a></h3>
-	    							<p class="mb-0"><a href="single.html" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
+	    							<h3><a href="http://localhost:8080/?page_id=37">Tasty &amp; Delicious Foods</a></h3>
+	    							<p class="mb-0"><a href="http://localhost:8080/?page_id=37" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
 	    						</div>
 		    				</div>
     					</div>
     					<div class="col-md-4 ftco-animate">
     						<div class="blog-entry">
-		    					<a href="single.html" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-6.jpg" class="img-fluid" alt="Colorlib Template"></a>
+		    					<a href="http://localhost:8080/?page_id=37" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-6.jpg" class="img-fluid" alt="Colorlib Template"></a>
 			    				<div class="text pt-3">
 	    							<p class="meta d-flex"><span class="pr-3">Dessert</span><span class="ml-auto pl-3">March 01, 2018</span></p>
-	    							<h3><a href="single.html">Tasty &amp; Delicious Foods</a></h3>
-	    							<p class="mb-0"><a href="single.html" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
+	    							<h3><a href="http://localhost:8080/?page_id=37">Tasty &amp; Delicious Foods</a></h3>
+	    							<p class="mb-0"><a href="http://localhost:8080/?page_id=37" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
 	    						</div>
 		    				</div>
     					</div>
     					<div class="col-md-4 ftco-animate">
     						<div class="blog-entry">
-		    					<a href="single.html" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-7.jpg" class="img-fluid" alt="Colorlib Template"></a>
+		    					<a href="http://localhost:8080/?page_id=37" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-7.jpg" class="img-fluid" alt="Colorlib Template"></a>
 			    				<div class="text pt-3">
 	    							<p class="meta d-flex"><span class="pr-3">Dessert</span><span class="ml-auto pl-3">March 01, 2018</span></p>
-	    							<h3><a href="single.html">Tasty &amp; Delicious Foods</a></h3>
-	    							<p class="mb-0"><a href="single.html" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
+	    							<h3><a href="http://localhost:8080/?page_id=37">Tasty &amp; Delicious Foods</a></h3>
+	    							<p class="mb-0"><a href="http://localhost:8080/?page_id=37" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
 	    						</div>
 		    				</div>
     					</div>
     					<div class="col-md-4 ftco-animate">
     						<div class="blog-entry">
-		    					<a href="single.html" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-8.jpg" class="img-fluid" alt="Colorlib Template"></a>
+		    					<a href="http://localhost:8080/?page_id=37" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-8.jpg" class="img-fluid" alt="Colorlib Template"></a>
 			    				<div class="text pt-3">
 	    							<p class="meta d-flex"><span class="pr-3">Dessert</span><span class="ml-auto pl-3">March 01, 2018</span></p>
-	    							<h3><a href="single.html">Tasty &amp; Delicious Foods</a></h3>
-	    							<p class="mb-0"><a href="single.html" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
+	    							<h3><a href="http://localhost:8080/?page_id=37">Tasty &amp; Delicious Foods</a></h3>
+	    							<p class="mb-0"><a href="http://localhost:8080/?page_id=37" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
 	    						</div>
 		    				</div>
     					</div>
     					<div class="col-md-4 ftco-animate">
     						<div class="blog-entry">
-		    					<a href="single.html" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-9.jpg" class="img-fluid" alt="Colorlib Template"></a>
+		    					<a href="http://localhost:8080/?page_id=37" class="img-2"><img src="<?php echo get_template_directory_uri(); ?>/images/blog-9.jpg" class="img-fluid" alt="Colorlib Template"></a>
 			    				<div class="text pt-3">
 	    							<p class="meta d-flex"><span class="pr-3">Dessert</span><span class="ml-auto pl-3">March 01, 2018</span></p>
-	    							<h3><a href="single.html">Tasty &amp; Delicious Foods</a></h3>
-	    							<p class="mb-0"><a href="single.html" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
+	    							<h3><a href="http://localhost:8080/?page_id=37">Tasty &amp; Delicious Foods</a></h3>
+	    							<p class="mb-0"><a href="http://localhost:8080/?page_id=37" class="btn btn-black py-2">Read More <span class="icon-arrow_forward ml-4"></span></a></p>
 	    						</div>
 		    				</div>
     					</div>
