@@ -6,24 +6,6 @@
 define('INCLUDE_DIR', get_template_directory() . "/includes");
 require_once(INCLUDE_DIR . '/enqueue-script.php');
 require_once(INCLUDE_DIR . '/menu.php');
-/**
- * Fonction qui ajoute des attributes au balise a des nav_menu
- *
- * @param [type] $att
- * @param [type] $item
- * @param [type] $args
- * @return void
- */
-function ajout_menu_a_class($atts, $item, $args)
-{
-  $class = 'nav-link'; // or something based on $item
-  $atts['class'] = $class;
-  return $atts;
-}
-// Ajout d'un écouteur d'événement de type filtre qui nous permet de changer les attributs des balises <a>
-// les add_action et add_filter peuvent avoit jusqu'à 4 paramêtre. Le 3ème pour l'ordre d'execution et le 4 ème pour le nombre de parammètre qui seront passer à la fonction callback
-add_filter('nav_menu_link_attributes', 'ajout_menu_a_class', 10, 3); 
-
 // Ajout d'un écouteur d'événement de type filtre qui nous permet de changer la classe active de la navbar
 
 function special_nav_class ($classes, $item) {
@@ -40,17 +22,5 @@ function special_nav_class ($classes, $item) {
 } 
 add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
 
-/**
- * Ajout la fonctionnalité d'un ajout d'image pour les posts pour ce thème ci
- *
- * @return void
- */
-function ajout_image_article()
-{
-  //Ajout de la fonctionnalité d'ajout d'image pour les posts pour ce thème ci
-  add_theme_support('post-thumbnails');
-  $test = 0;
-}
-// Ajout d'un écouteur d'événement pour activer les images mise en avant pour les post (article)
-add_action('init', 'ajout_image_article'); 
+require_once(INCLUDE_DIR . '/theme-setup.php');
 ?>
