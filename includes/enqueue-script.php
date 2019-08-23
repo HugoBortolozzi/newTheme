@@ -24,6 +24,7 @@ public static function ajout_css_js()
     wp_enqueue_style('flaticon', get_template_directory_uri() . '/css/flaticon.css');
     wp_enqueue_style('icomoon', get_template_directory_uri() . '/css/icomoon.css');
     wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css');
+    wp_enqueue_style('coding-theme', get_template_directory_uri() . '/css/coding-theme.css');
 
     // Ajout des scripts js
   // https://developer.wordpress.org/reference/functions/wp_enqueue_script/
