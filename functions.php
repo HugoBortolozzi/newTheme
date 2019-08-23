@@ -6,21 +6,5 @@
 define('INCLUDE_DIR', get_template_directory() . "/includes");
 require_once(INCLUDE_DIR . '/enqueue-script.php');
 require_once(INCLUDE_DIR . '/menu.php');
-// Ajout d'un écouteur d'événement de type filtre qui nous permet de changer la classe active de la navbar
-
-function special_nav_class ($classes, $item) {
-
-  $classes[] = 'nav-link';
-
-  if (in_array('current-menu-item', $classes) ){
-
-      $classes[] = 'nav-link active';
-
-  }
-
-  return $classes;
-} 
-add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
-
 require_once(INCLUDE_DIR . '/theme-setup.php');
 ?>

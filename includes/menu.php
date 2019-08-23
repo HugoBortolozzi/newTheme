@@ -25,7 +25,21 @@ class MgMenu
     $atts['class'] = $class;
     return $atts;
   }
+  // Ajout d'un écouteur d'événement de type filtre qui nous permet de changer la classe active de la navbar
+  public static function special_nav_class ($classes, $item) {
+
+    $classes[] = 'nav-link';
+    
+    if (in_array('current-menu-item', $classes) ){
+    
+        $classes[] = 'nav-link active';
+    
+    }
+    
+    return $classes;
+    } 
 }
+add_filter('nav_menu_css_class' , [MgMenu::class, 'special_nav_class'], 10 , 2);
 add_action('after_setup_theme', [MgMenu::class, 'register_main_menu']);
 // Ajout d'un écouteur d'événement de type filtre qui nous permet de changer les attributs des balises <a>
 // les add_action et add_filter peuvent avoit jusqu'à 4 paramêtre. Le 3ème pour l'ordre d'execution et le 4 ème pour le nombre de parammètre qui seront passer à la fonction callback
