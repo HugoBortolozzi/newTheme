@@ -260,3 +260,12 @@ get_header();
     // Ajout d'un fichier footer.php pour y mettre le footer
     get_footer();
   ?>
+
+<!-- En test pour le moment -->
+
+  <?php while (have_posts()) : the_post(); ?>
+  <h2 class="text-center text-uppercase text-secondary mb-0"><?php the_title(); ?></h2>
+  <div class="post-content">
+    <?php the_content(); ?>
+  </div>
+  <?php endwhile; ?>
