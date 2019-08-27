@@ -20,8 +20,8 @@ function ajout_personnalisation_about($wp_customize)
   // Attention, un panel ne s'affichera que s'il contient des sections
   //https://developer.wordpress.org/reference/classes/wp_customize_manager/add_panel/
   $wp_customize->add_panel('coding-panel-about', [
-    'title' => __('Section About'),
-    'Description' => __('Personnalisation de la section about')
+    'title' => __('Le sous-titre'),
+    'Description' => __('Personnalisation du sous-titre')
   ]);
   // Ajout d'une section à un panel définie, si pas de panel défini, alors la section sera visible directement
   // Attention il faut que la panel ait déjà été ajouter pour que la section puisse s'y greffer.
@@ -44,11 +44,11 @@ function ajout_personnalisation_about($wp_customize)
   // Attention le setting doit déjà être créer afin que le control puisse s'ajouter.
   // Attention un control ne s'affiche que s'il est lié à un setting.
   // https://developer.wordpress.org/reference/classes/wp_customize_manager/add_control/
-  $wp_customize->add_control('coding-about-text-left-control', [
+  $wp_customize->add_control('coding-about-text-right-control', [
     'section' => 'coding-about-section-text',
-    'settings' => 'coding-about-text-left',
+    'settings' => 'coding-about-text-right',
     'label' => __('Texte colonne gauche'),
-    'description' => __('Personnalisez le texte de la colonne gauche'),
+    'description' => __('Personnalisez le texte du sous-tire'),
     'type' => 'textarea'
   ]);
 }

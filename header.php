@@ -31,4 +31,5 @@ wp_head();
 	      </div>
 	    </div>
 	  </nav>
+    <div class="text-center text-dark"><?php echo get_theme_mod('coding-about-text-right'); ?></div>
     <!-- END nav -->
