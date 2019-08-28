@@ -11,6 +11,7 @@ class MgWidgetRegister
       'before_title'  => '<h1 class="widget-title">',
       'after_title'   => '</h1>',
     ));
+    // si tu veux plusieurs sidebars, recopie la fonction register_sidebar et change au moins l'ID 
   }
 }
 add_action('widgets_init', [MgWidgetRegister::class, 'register']);
