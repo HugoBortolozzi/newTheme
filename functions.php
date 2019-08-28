@@ -8,4 +8,5 @@ require_once(INCLUDE_DIR . '/enqueue-script.php');
 require_once(INCLUDE_DIR . '/menu.php');
 require_once(INCLUDE_DIR . '/theme-setup.php');
 require_once(INCLUDE_DIR . '/customize.php');
+require_once(INCLUDE_DIR . '/sidebar.php');
 ?>
